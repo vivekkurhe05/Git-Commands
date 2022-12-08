@@ -25,3 +25,13 @@ git remote set-url origin repository_url.git
 
 
 7. git push origin master
+
+# Add existing project to github
+
+1. Create a new repositiory with the same name as project
+2. Open terminal and navigate to project "cd project_name"
+3. git init
+4. git add .
+5. git commit -m "Add existing project files to Git"
+6. git remote add origin https://github.com/cameronmcnz/example-website.git
+7. git push -u -f origin master
